@@ -1,8 +1,15 @@
+
+.nav {
+color: #8a8b8c;
+font-family:Arial;
+text-align: right;
+margin-right: 110px;
+margin-top:30px;
+}
 .logo img {
   height: 150px;
   width: 100%;
 }
-
 .logo {
   float: left;
   width:16.6%;
@@ -11,24 +18,25 @@
   height: 100px;
   width: 16.6%;
   float: left;
-  right: 100px;
   color: white;
-  font-size: 30px;
-  font-family: Arial;
-}
-.submenu:hover {
-  color: #CF2929;
-}
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: right;
+  margin-top: 60px;
 
-.menu {
-  height: 100px;
 }
 html {
   height:100%
 }
- body {
+body {
    min-height:100%;
    postion:relative
+ }
+ .menu {
+   height: 100px;
+ }
+.submenu:hover {
+  color: #CF2929;
 }
 .footer {
   position:absolute;
