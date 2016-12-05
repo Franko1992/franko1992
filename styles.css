@@ -1,51 +1,45 @@
-
 .nav {
 color: #8a8b8c;
 font-family:Arial;
 text-align: right;
-margin-right: 110px;
-margin-top:30px;
-}
-.logo img {
-  height: 150px;
-  width: 100%;
-}
-.logo {
-  float: left;
-  width:16.6%;
-}
-.submenu {
-  height: 100px;
-  width: 16.6%;
-  float: left;
-  color: white;
-  font-size: 20px;
-  font-family: Georgia;
-  text-align: right;
-  margin-top: 60px;
+margin-top: 20px;
 
 }
+
+.logo img {
+  height: auto;
+}
+
+.row {
+  font-size: 20px;
+  font-family: Georgia;
+  color: #c1c5cc;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 60px;
+}
+
 html {
   height:100%
 }
+
 body {
    min-height:100%;
-   postion:relative
+   postion:relative;
  }
- .menu {
-   height: 100px;
- }
-.submenu:hover {
-  color: #CF2929;
+
+.menu div:hover {
+  color: #ad031c;
 }
+
 .footer {
+  font-size: 12px;
+  font-family:Arial;
+  bottom: 0;
   position:absolute;
-  color: #8a8b8c;
-  font-size: 9px;
- border-top:3px double #8a8b8c;
- bottom:0 ;
- width:100%;
- text-align: center;
- background-color: #151616;
- font-family:Arial;
+  margin-bottom: 15px;
+  color: #606163;
+  text-align: right;
 }
