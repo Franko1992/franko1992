@@ -1,18 +1,11 @@
-.nav {
-color: #8a8b8c;
-font-family: Arial;
-text-align: right;
-margin-top: 20px;
-background-color: black;
-}
 
 .logo img {
   height:inherit;
 }
 
 .row {
-  font-size: 20px;
-  font-family: Georgia;
+  font-size: 25px;
+  font-family: George;
   color: #c1c5cc;
   text-align: center;
   background-color: black;
@@ -49,7 +42,29 @@ body {
   color: #ad031c;
   text-decoration: none;
 }
+.content {
 
+}
+
+.carousel-caption {
+  top: 30%;
+}
+
+.carousel-inner h3 {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: Arial Narrow;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 6px 6px 20px black;
+  opacity: 2.0;
+}
+
+.carousel-inner img {
+  filter: brightness(60%);
+  display: block;
+}
 
 
 .footer {
@@ -67,5 +82,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display:none;
+    display: none;
+    border: 1px solid #e1e1e1;
+    background-color: red
 }
