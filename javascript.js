@@ -1,5 +1,13 @@
-//scrollTop button
-$(document).ready(function(){
+$(document).ready(function() {
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
@@ -17,5 +25,12 @@ $(document).ready(function(){
         });
 
         $('#back-to-top').tooltip('show');
+
+				$(function () {
+				  $('[data-toggle="tooltip"]').tooltip()
+				})
+
+
+
 
 });
